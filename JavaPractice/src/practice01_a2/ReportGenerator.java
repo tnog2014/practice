@@ -109,15 +109,15 @@ public class ReportGenerator {
 
 	private static class DataClass implements Comparable<DataClass> {
 
-	    private String customerId;	// 顧客ID
-	    private String storeId;		// 店舗ID
-	    private int amount;			// 利用金額
+		private String customerId;	// 顧客ID
+		private String storeId;		// 店舗ID
+		private int amount;			// 利用金額
 
-	    @Override
-	    public int compareTo(DataClass other) {
-	        int result = this.customerId.compareTo(other.customerId);
-	        return result;
-	    }
+		@Override
+		public int compareTo(DataClass other) {
+			int result = this.customerId.compareTo(other.customerId);
+			return result;
+		}
 
 		public String getCustomerId() {
 			return customerId;
