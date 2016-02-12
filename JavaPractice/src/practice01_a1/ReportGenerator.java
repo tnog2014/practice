@@ -51,7 +51,7 @@ public class ReportGenerator {
 			String regex = "^#";
 			Pattern p = Pattern.compile(regex);
 
-			String oneLine = iBr.readLine();
+			String oneLine = "";
 
 			// EOFまで入力ファイルを1行ずつ読み込む
 			while(oneLine != null){
