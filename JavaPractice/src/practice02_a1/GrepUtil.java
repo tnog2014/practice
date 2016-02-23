@@ -1,4 +1,4 @@
-  package practice02_a1;
+package practice02_a1;
 
 import java.io.BufferedReader;
 import java.io.File;
